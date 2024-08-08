@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml> 
+    <category> 
+        <pattern>Hello, I need some help</pattern> 
+        <template>Hi, how can I help you👃</template> 
+    </category> 
+    
+    <category> 
+        <pattern>How to learn JavaScript</pattern> 
+        <template>You can learn JavaScript from its official documentation</template> 
+    </category> 
 </aiml>
