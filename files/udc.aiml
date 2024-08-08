@@ -9,4 +9,24 @@
         <pattern>How to learn JavaScript</pattern> 
         <template>You can learn JavaScript from its official documentation</template> 
     </category> 
+    
+    <category>
+        <pattern>I am a Bot</pattern>
+        <template>
+            <think>
+                <set name="mood"><star /></set>
+            </think>
+            <condition name="mood">
+                <li value="happy">I am glad to hear that!</li>
+                <li value="sad">I am sorry to hear that!</li>
+                <li value="angry">Take a deep breath!</li>
+                <li>You seems <star /> today!</li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>I'm here to help. What can I assist you with today?</template>
+    </category>
 </aiml>
